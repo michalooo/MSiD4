@@ -3,6 +3,8 @@ import time
 from nn.models import get_model
 import train
 
+x = 10
+
 
 def validate(model, model_path, split_file):
   m = get_model(model)
