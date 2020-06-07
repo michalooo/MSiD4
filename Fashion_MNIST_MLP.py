@@ -73,8 +73,6 @@ memory = model.fit(X_train,
 
 # RUN
 
-#model.evaluate(X_test, y_test, batch_size=32)
+model.evaluate(X_test, y_test, batch_size=32)
 
-modelek = load_model('best_model.h5')
-modelek.evaluate(X_test, y_test, batch_size=32)
 draw(memory)
