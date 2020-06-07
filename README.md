@@ -137,7 +137,11 @@ we should not rename these files.
 
 The Pictures folder contains photos for the READ.me file.
 
-The best learned model from MLP method is in the file "best_model.h5", we can use it 
+The best learned model from MLP method is in the file "best_model.h5", we can use it and evaluate it by typing
+
+    model = load_model('best_model.h5')
+    model.evaluate(X_test, y_test, batch_size=32)
+
 There must by installed tensorflow, numpy and matplotlib.pyplot libraries.
 
 Then you can run the scripts "Fashion_MNIST_KNN.py" or "Fashion_MNIST_MLP.py" separately,

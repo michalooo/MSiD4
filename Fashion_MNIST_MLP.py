@@ -5,7 +5,6 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import Dropout
 import matplotlib.pyplot as plt
 from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.models import load_model
 import mnist_reader
 
 
